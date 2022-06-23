@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Drawing in Canvas with mouse.</title>
+    <style>
+     body
+     {
+      background-color: #C689F6;
+      color: #65150D;
+      font-family: Algerian;
+      }
+     h1
+     {
+      color: #F90B20;
+     }
+     #dibujito
+     {
+       background-color: #03F2E4;
+     }
+    </style>
+  </head>
+  <body>
+   <h1>Drawing in Canvas with mouse events.</h1>
+   <canvas id="dibujito" width="300" height="300"></canvas>
+   <script src="m_1.js"></script>
+   <br>
+   <input type="color" id="defcolor" oninput="defcolor(this.value);">
+   <input type="range" id="defgrosor" oninput="defgrosor(this.value);" max="5" min="1" value="1">
+   <p>Your drawing looks so.</p>
+  </body>
+</html>

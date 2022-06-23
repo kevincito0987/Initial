@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My first videogame.</title>
+    <style>
+     input
+     {
+       background-color: #F7CB57;
+     }
+     body
+     {
+       background-color: #A1A7A9;
+       color: #4F0924;
+       font-family: Algerian;
+     }
+     h1
+     {
+       color: #190A38;
+     }
+    </style>
+  </head>
+  <body>
+    <h1>Interactive game.</h1>
+    <p>Drawing objects according your taste.</p>
+    <p>How much cows do you want to draw? <input type="text" id="cows" /></p>
+    <p>How much pigs do you want to draw? <input type="text" id="pigs" /></p>
+    <p>How much chickens do you want to draw? <input type="text" id="chickens" /></p>
+    <input type="button" id="botoncito" value="Draw" />
+     <br>
+    <canvas width="500" height="500" id="dibujito"></canvas>
+    <p>Your drawing looks so.</p>
+    <script src="1.js"></script>
+  </body>
+</html>

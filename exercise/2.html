@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Tu peso en otros lugares de nuestro sistema solar.</title>
+   <style>
+    body
+    {
+      background-color: #52BE80;
+      color:
+       #784212;
+      font-family: Algerian;
+    }
+    h1
+    {
+      color: #943126;
+    }
+   </style>
+ </head>
+ <body>
+   <h1>Tu peso en otros planetas.</h1>
+   <p><em>En la tierra pesas distinto que en planetas como Marte o Jupiter.</em></p>
+   <script>
+   var usuario = prompt("¿Cual es tu peso?");
+   var peso = parseInt(usuario);
+   var g_tierra = 9.8;
+   var g_marte = 3.7;
+   var g_jupiter = 24.8;
+   var peso_mar;
+   peso_mar = peso*g_marte/g_tierra;
+   peso_mar = parseInt(peso_mar);
+   var peso_jup;
+   peso_jup = peso*g_jupiter/g_tierra;
+   peso_jup = parseInt(peso_jup);
+   document.write("<em>Tu peso en marte es de:</em><strong>" + peso_mar + "kilos.</strong>");
+   document.write("<br>");
+   document.write("<em>Tu peso en jupiter es de:</em><strong>" + peso_jup + "kilos.</strong>");
+   </script>
+ </body>
+</html>

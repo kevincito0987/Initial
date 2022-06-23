@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>excercise 1.</title>
+    <style>
+      body
+      {
+        background-color: #14DC94;
+        color: #87330D;
+        font-family: Algerian;
+      }
+      input
+      {
+        color: #13100F;
+        background-color: #F9F206;
+      }
+      #Drawing
+      {
+        background-color: #0BF5EE;
+      }
+    </style>
+  </head>
+  <body>
+   <h1>Drawing in Canvas.</h1>
+   <p>Coordinates of the triangle</p>
+   <p>Starting position in x  <input type="text" id="xi"/></p>
+   <p>Ending 1 position in x  <input type="text" id="xf_1"/></p>
+   <p>Ending 2 position in x  <input type="text" id="xf_2"/></p>
+   <p>Starting position in y  <input type="text" id="yi"/></p>
+   <p>Ending 1 position in y  <input type="text" id="yf_1"/></p>
+   <p>Ending 2 position in y  <input type="text" id="yf_2"/></p>
+   <p>How color for the triangle do you want?, or write the color code.<input type="text" id="color" /></p>
+   <input type="button" value="Draw triangle." id="dr" />
+   <br>
+   <canvas width="300" height="300" id="Drawing"></canvas>   <p>Your drawing looks so.</p>
+   <p>Base and the height of your triangle.</p>
+   <p>Enter the base of your triangle.    <input type="text" id="base." /></p>
+   <p>Enter the height of your triangle.  <input type="text" id="h1." /></p>
+   <input type="button"  value="triangle area." id="botoncito" />
+   <script src="n1.js"></script>
+  </body>
+</html>

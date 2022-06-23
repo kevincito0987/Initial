@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Excercise Eleven.</title>
+    <style>
+     body
+     {
+       background-color: #D9F2BC;
+       color: #634D2F;
+       font-family: Algerian;
+     }
+     h1
+     {
+       color: #C01B2D;
+     }
+     #Drawing
+     {
+       background-color: #A9FBD2;
+     }
+     input
+     {
+       background-color: #ECF993;
+       color: #071DF5;
+     }
+    </style>
+  </head>
+  <body>
+    <h1>Drawing triangles in canvas.</h1>
+    <p>Coordinates of the triangle</p>
+  <p>Starting position in x  <input type="text" id="xi"/></p>
+  <p>End 1 position in x  <input type="text" id="xf_1"/></p>
+  <p>End 2 position in x  <input type="text" id="xf_2"/></p>
+  <p>Starting position in y  <input type="text" id="yi"/></p>
+  <p>End 1 position in y  <input type="text" id="yf_1"/></p>
+  <p>End 2 position in y  <input type="text" id="yf_2"/></p>
+  <p>How color for the triangle do you want?, or write the color code.<input type="text" id="colorcito" /></p>
+  <input type="button" value="Draw triangle." id="dr" />
+  <br>
+  <canvas width="300" height="300" id="Drawing"></canvas>
+  <p>Your drawing looks so.</p>
+  <p>Write the value of the opposite Hick  <input type="text" id="c_o"/></p>
+  <p>Write the value of the adjacent Hick  <input type="text" id="c_a"/></p>
+  <input type="button" id="b_r_c" value="Calculate the square root of the triangle">
+    <script src="n11.js" charset="utf-8"></script>
+  </body>
+</html>
